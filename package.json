@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Robin-BRG/Efrei_lab_nodejs/issues"
   },
-  "homepage": "https://github.com/Robin-BRG/Efrei_lab_nodejs#readme"
+  "homepage": "https://github.com/Robin-BRG/Efrei_lab_nodejs#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
